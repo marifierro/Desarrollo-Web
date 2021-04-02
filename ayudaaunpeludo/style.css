@@ -1,0 +1,31 @@
+h6{
+    text-align: left;
+}
+
+#completo{
+    text-align: center;  
+}
+
+
+#gatos-en-adopcion{
+    text-align: center;
+}
+
+.imgTamano{
+    width: 30%;
+    margin-top: 14%;
+}
+ .mitad{
+    position: absolute;
+ }
+
+.descripcion{
+    text-align: left;
+    margin-left: 34%;
+    position: absolute;
+    margin-top: 10%;
+}
+
+#perros-en-adopcion{
+    text-align: center;
+}
