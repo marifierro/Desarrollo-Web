@@ -1,0 +1,46 @@
+#menu{
+    width: 20%;
+    float: left;
+    background-color: black;
+    color: white;
+}
+.altura {
+    height: 100vh;
+    font-family: sans-serif;
+    
+ 
+}
+
+.link1:link, .link1:visited, .link1:active {
+    text-decoration:none;
+    color: white;
+    padding-left: 10%;
+}
+
+.colorBoton:hover{
+  color: gray;
+}
+
+.alturaCont{
+    height: 24.7%;
+    padding: 1px;
+    padding-left: 50vh;
+    color: white;
+}
+
+#cont1{
+    background-color: #00d6f2;
+    
+}
+#cont2{
+    background-color: #ffde00
+    ;
+}
+#cont3{
+    background-color: #ff7a00
+    ;
+}
+#cont4{
+    background-color: #ff0012
+    ;
+}
