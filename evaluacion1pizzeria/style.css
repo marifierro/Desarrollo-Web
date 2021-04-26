@@ -1,0 +1,23 @@
+.ajustecarusel{
+   margin-left: 30%;
+}
+.ajustecard{
+    margin: 3%;
+}
+.estiloletra{
+    font-family: cambria;
+
+}
+.fondo1{
+    background-image: url("imagenes/jumb.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	position: relative;
+    
+}
+.fondotexto{
+    background-color: #ffffff54;
+    margin-left: 20%;
+    margin-right: 20%;
+}

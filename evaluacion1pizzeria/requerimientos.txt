@@ -1,0 +1,26 @@
+Requerimientos:
+
+-Todas las páginas debe tener menú de navegación
+-Logo en la parte superior
+-jumbotromp con número de telefono de la pagina
+-carrusel con 3 promociones destacadas
+-páginas para categorias: premium, vegetarianas, y sabores del mundo
+    -Bajo del carrusel: sección con 3 cat. del producto
+
+Fichas para las pizzas:
+    -Fotografia de la pizza optimizada web
+    -listado de ingredientes NO NUMERADA
+    -valor nutricional
+    -precio DESTACADO
+
+Pie de la pagina: datos y numero de contacto 
+
+
+ORDEN DE LAS PÁGINAS:
+
+parte superior: 'icono', categorias, quienes somos, preguntas frecuentes
+
+Categorias:
+            -Premium
+            -Vegetarianas
+            -Sabores del mundo
