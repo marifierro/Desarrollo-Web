@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi primer formulario</title>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+    <form action="procesar.php" method="post" name="contacto">
+        <span>Nombre: </span><input type="text" name="edad" placeholder="Ingrese su nombre" value="">        
+        <br>
+        <span>Edad: </span><input type="number" name="edad" placeholder="Ingrese su edad" value="">
+        <br>
+        <span>Correo: </span><input type="text" name="correo" placeholder="Ingrese su correo" value="">
+        <br>
+        <span>Rut: </span><input type="text" name="rut" placeholder="Ingrese su rut sin puntos y con guión" value="">
+        <br>
+        <span>Tus comentarios </span><br><textarea name="comentarios" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+  
+</body>
+</html>
