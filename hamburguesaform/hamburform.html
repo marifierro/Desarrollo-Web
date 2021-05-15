@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesa</title>
+</head>
+<body>
+    <h1>Prepara tu hamburguesa</h1>
+    <form action="pedido.html" method="post">
+        <section id="proteina">
+            <label for="proteina">Eligue tu proteína</label>
+            <input type="text" name="proteina" id="proteina" >
+            <br>
+            <label for="coccion">¿Cómo te gusta la cocción de tu hamburguesa?</label>
+            <br>
+            <span>Poco cocida</span>
+            <input type="range" name="coccion" id="coccion" value="3" min="1" max="5">
+            <span>Muy cocida</span>
+        </section>
+        <hr>
+        <section id="empanadas">
+            <label for="empanadas">¿Cuántas empanadas agregamos a su pedido?</label>
+            <input type="number" name="empanadas" id="empanadas" min="0" max="10">
+        </section>
+        <hr>
+        <section id="verduras">
+            <span>Elija los acompañamientos</span>
+            <br>
+            <label for="lechuga">Lechuga</label>
+            <input type="checkbox" name="verduras" id="lechuga" value="lechuga">
+            <label for="tomate">Tomate</label>
+            <input type="checkbox" name="tomate" id="tomate" value="tomate">
+            <label for="cebolla">Cebolla</label>
+            <input type="checkbox" name="cebolla" id="cebolla" value="cebolla">
+        </section>
+        <hr>
+        <section id="queso">
+            <label for="queso">¿Le gustaría añadir queso?</label>
+            <br>
+            <input type="radio" name="queso" id="si" value="si">
+            <label for="si">Si</label>
+            <input type="radio" name="queso" id="no" value="no">
+            <label for="no">No</label>
+        </section>
+        <hr>
+        <section id="salsas">
+            <label for="salsas">Elija la salsa que agregaremos</label>
+            <select name="salsas" id="salsas">
+                <option value="ajo">Ajo</option>
+                <option value="bbq">BBQ</option>
+                <option value="picante">Picante</option>
+                <option value="verde">Verde</option>
+                <option value="ketchup">Ketchup</option>
+            </select>
+        </section>
+        <hr>
+        <section id="comentarios">
+            <label for="comentarios">Algo que quieras agregar</label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="40" rows="5"></textarea>
+        </section>
+        <hr>
+        <section id="envio">
+            <input type="submit" value="Enviar">
+        </section>
+
+    </form>
+</body>
+</html>
