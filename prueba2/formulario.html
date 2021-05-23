@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>FORMULARIO</title>
+  </head>
+  <body>
+    <h1>FORMULARIO</h1>
+    <form action="procesar.php" method="post" name="contacto">
+        
+        <span> Nombre:</span><input type="text" name="Nombre"   placeholder=  "Ingrese su Nombre "  value="">
+        <br>
+        <span> Correo:</span><input type="text" name="Email"   placeholder="Ingrese su correo"  value="">
+        <br>
+        <span> RUT:</span><input type="text" name="rut"   placeholder="Ingrese su rut sin puntos y con guion "  value="">
+        <br>
+        <span> Contraseña:</span><input type="text" name="rut"   placeholder="Ingrese su contraseña "  value="">
+        <br>
+        <span> Tus comentarios</span><br>
+        <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" name="Enviar">
+    </form>
+
+    
+  </body>
+</html>
