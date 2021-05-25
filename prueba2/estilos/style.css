@@ -1,3 +1,24 @@
 body{
     background-color: rgb(43, 226, 156);
 }
+
+.formulario {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    gap: 20px;
+	
+}
+
+.formulario__label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+
+
