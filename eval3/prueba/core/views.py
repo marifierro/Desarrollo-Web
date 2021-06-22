@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Libro
+from .models import Libro, Registro
 from .forms import LibroForm
 
 # Create your views here.
@@ -10,6 +10,13 @@ def home(request):
         'libros': libros
     }
     return render(request, 'core/index.html', datos)
+
+def home(request):
+    registros= Registro.objects.all()
+    datos = {
+        'registros': registros
+    }
+    return render(request, 'core/registros.html', datos)
 
 def form_libro(request):
     datos= {

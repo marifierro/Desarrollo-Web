@@ -20,3 +20,13 @@ class Libro(models.Model):
 
     def __str__(self):
         return self.isbn
+
+# modelo para registros
+class Registro(models.Model):
+    nombre = models.CharField(max_length=17, primary_key=True, verbose_name='Nombre')
+    email = models.CharField(max_length=50, verbose_name='Email')
+    contraseña = models.CharField(max_length=20, null=True, blank=True, verbose_name='Contraseña')
+    comentarios = models.CharField(max_length=20, null=True, blank=True, verbose_name='Comentarios')
+
+    def __str__(self):
+        return self.nombre
